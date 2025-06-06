@@ -1,0 +1,39 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is a react based application developed by Neha Nadakuditi",
+  "scripts": {
+     "start": "parcel index.html --port 1234",
+     "build": "parcel build index.html",
+     "test": "jest"
+  
+}
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nehanadakuditi/namaste-react.git"
+  },
+  "keywords": [
+    "neha",
+    "namaste-react",
+    "build",
+    "run",
+    "react"
+  ],
+  "author": "Neha Nadakuditi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nehanadakuditi/namaste-react/issues"
+  },
+  "homepage": "https://github.com/nehanadakuditi/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [ 
+   "last 2 versions"
+  ]
+}
