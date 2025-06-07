@@ -20,8 +20,10 @@ const Header=() => {
              <li>NomNow Corporate</li>
              <li>Partner with us</li>
              <li>Get the app</li>
-             <li>Signin</li>
              <li>🛒</li>
+             <button className="signin-header">
+               sign-in
+             </button>
              
           </ul>
  
