@@ -51,6 +51,7 @@
 }
 .body-for-nomnow{
     background-color: antiquewhite;
+    padding-top: 20px;
 }
 .restro-container{
     display: flex;
@@ -62,6 +63,15 @@
     cursor: pointer;
 
 }
-.signin-header{
-    cursor: progress;
+.signin-header:hover{
+    cursor: pointer;
+}
+.filter-btn{
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 12px;  
+  
+}
+.filter{
+    margin-bottom: 20px;
 }

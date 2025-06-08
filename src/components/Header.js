@@ -1,6 +1,9 @@
 import { LOGO_URL } from "../utils/constants";
+import {useState} from "react";
 
 const Header=() => {
+   const [onClickOfSignin, setOnClickOfSignin]= useState(("signin"));
+
     return (
        <><div className="header-for-nomnow">
            
@@ -21,9 +24,15 @@ const Header=() => {
              <li>Partner with us</li>
              <li>Get the app</li>
              <li>🛒</li>
-             <button className="signin-header">
-               sign-in
-             </button>
+             <button className="signin-header"
+              onClick={()=> { 
+               {onClickOfSignin=== "signin" ? setOnClickOfSignin("signout") : setOnClickOfSignin("signin")}
+           
+             } }
+             >
+              {onClickOfSignin}
+      
+       </button>
              
           </ul>
  

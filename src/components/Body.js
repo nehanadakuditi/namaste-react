@@ -28,10 +28,19 @@ const Body=() => {
     return listOfRestaurants.length===0 ? (< Shimmer />) : (
        <div className="body-for-nomnow">
            <div className="filter">
-              <button className="filter-btn"
+               <input type="text"
+               className="search-box">
+               </input>
+               <button className="search-for-nomnow">
+                  search
+                  </button> 
+            </div>
+            <div className="filter-option">
+            <button className="filter-btn"
                 onClick = {handleFilter}
               >Top Rated Restaurants</button>
-           </div>
+            </div>
+          
            <div className="restro-container">
               {listOfRestaurants.map((restaurant)=> (
                <RestaurantCard key={restaurant.info.id} resData={restaurant}/>
