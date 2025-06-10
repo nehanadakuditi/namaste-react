@@ -2,7 +2,7 @@
     color: white;
     display: flex;
    justify-content: space-between;
-   background-color: orange;
+   background-color: rgb(195, 183, 190);
    align-items: center;
    padding: 10px;
    border: 1px antiquewhite;
@@ -25,7 +25,7 @@
 }
 .nav-items> ul> li{
     margin-right: 20px;
-    color: white;
+    color: black;
     
 }
 
@@ -34,11 +34,19 @@
    margin: 10px;
    width: 250px;
    height: 370px;
+   border-radius: 15px; /* soften corners*/
+   transition: transform 0.2s ease; /*transition*/
+   background-color: honeydew;
+   font-family: 14px inter san serif;
+   font-weight: small;
+   color: rgb(43, 10, 10);
+  
   
 }
 .restro-card:hover{
     border: 1px solid black;
     cursor: pointer;
+    transform: translateY(-7px); /*slight lift on hover*/
 }
 
 .search{
@@ -48,9 +56,12 @@
 .img{
    height: 35%;
     width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
 }
 .body-for-nomnow{
-    background-color: antiquewhite;
+    background-color: rgb(243, 235, 238);
     padding-top: 20px;
 }
 .restro-container{
@@ -73,5 +84,10 @@
   
 }
 .filter{
+    display: :flex;
     margin-bottom: 20px;
+    margin-right: 16px;
+}
+.both-func{
+    display: flex;
 }

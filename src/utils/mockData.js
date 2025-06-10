@@ -966,6 +966,7 @@ const resList= [
         "link": "https://www.swiggy.com/city/vijayawada/shakes-world-p-and-t-colony-gurunanak-colony-rest234882",
         "type": "WEBLINK"
       }
+      
     }
   ];
 

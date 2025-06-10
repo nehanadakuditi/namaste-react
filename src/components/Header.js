@@ -10,7 +10,7 @@ const Header=() => {
           <div className="logo-img">
              <img 
              className="logo" 
-             src= {LOGO_URL}
+             src= "https://www.nomiddleman.com/wp-content/uploads/2018/09/nom-nom-now-1.jpg"
              alt="nomnow logo" />
           </div>
        
